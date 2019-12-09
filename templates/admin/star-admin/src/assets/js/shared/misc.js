@@ -56,10 +56,14 @@ var lightColor = getComputedStyle(document.body).getPropertyValue('--light');
     function appendBanner() {
       var bannerState = localStorage.getItem('bannerState') ? localStorage.getItem('bannerState') : "enabled";
       if (bannerState == "enabled") {
-        $("body").addClass("purchase-banner-active");
+        localStorage.setItem('bannerState', "disabled");
+		/*$("body").addClass("purchase-banner-active");
 
+        $(".item-purchase-banner .toggler-close").on("click", function () {
+          $(".item-purchase-banner").slideUp(300);
+          $("body").removeClass("purchase-banner-active");
           localStorage.setItem('bannerState', "disabled");
-        });
+        });*/
       }
     }
 
