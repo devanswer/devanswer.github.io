@@ -1,10 +1,8 @@
 body {padding-top: 70px}
 h1, h2, h3, h4, h5, .lead {font-family: 'Droid Sans', sans-serif}
 /**********Start Overriding Bootstrap********/
-
 /*Main Navbar*/
 .navbar {min-height: 70px}
-
 /*Active Link*/
 .navbar-inverse .navbar-nav> .active>a,
 .navbar-inverse .navbar-nav> .active>a:hover,
@@ -146,7 +144,7 @@ h1, h2, h3, h4, h5, .lead {font-family: 'Droid Sans', sans-serif}
 /*Start Section Our Team*/
 .our-team
 {
-	background: url('http://www.goldfoam.com.pl/assets/images/bg/bg3.jpg') no-repeat center center fixed;
+	background: url('../img/website-background.jpg') no-repeat center center fixed;
 	min-height: 600px
 }
 .team
@@ -182,7 +180,7 @@ h1, h2, h3, h4, h5, .lead {font-family: 'Droid Sans', sans-serif}
 /*Start Section Stats*/
 .statistics
 {
-	background: url('http://www.lgcomputers.it/lgcomputers/images/page-background.jpg') no-repeat center center fixed;
+	background: url('../img/page-background.jpg') no-repeat center center fixed;
 	min-height: 300px
 }
 .statistics .data
@@ -215,7 +213,7 @@ h1, h2, h3, h4, h5, .lead {font-family: 'Droid Sans', sans-serif}
 .contact-us
 {
 	overflow:hidden;
-	background: url('https://insurancenetusa.com/wp-content/uploads/2015/10/retirement-insurance-slide.jpg') no-repeat center center fixed;
+	background: url('../img/retirement-insurance-slide.jpg') no-repeat center center fixed;
 	min-height: 300px
 }
 .contact-us .fields
@@ -294,7 +292,6 @@ h1, h2, h3, h4, h5, .lead {font-family: 'Droid Sans', sans-serif}
 .statistics h2,
 .our-skills .h1,
 .our-skills h2{margin-bottom: 50px}
-
 .testimonials .large .carousel-indicators li,
 .price-table .price-box p,
 .statistics .stats,
@@ -307,7 +304,6 @@ h1, h2, h3, h4, h5, .lead {font-family: 'Droid Sans', sans-serif}
     transition: all 0.5s ease-in-out
 }
 /*End Our Grouping*/
-
 /*Smart Phones and Tablets*/
 @media(max-width: 339px)
 {
