@@ -1,0 +1,166 @@
+.h2, h2, h3, .lead {font-family: 'Josefin Slab', serif}
+.h2, h2, h3{font-weight: 800}
+.lead{font-weight: 700; letter-spacing:1.5px}
+.btn{background-color: #FFF; color: #000; border: 2px solid #000; font-size: 16px}
+.btn:hover{background-color: #000; color: #FFF; border: 2px solid #000; font-size: 16px}
+hr{margin-top: 30px}
+.navbar .navbar-nav> li> a
+{
+	color: #FFF;
+	background-color:#00C78C
+}
+.navbar .navbar-nav> li> a:hover,
+.navbar .navbar-nav> li> a:focus
+{
+	color:#00C78C; 
+	background-color:#FFF
+}
+.navbar-default .navbar-brand{color: #FFF;}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus
+{
+	color: #FFF
+}
+.navbar .navbar-nav> .active>a,
+.navbar .navbar-nav> .active>a:hover,
+.navbar .navbar-nav> .active>a:focus
+{
+	background-color:#FFF;
+	color: #00C78C
+}
+.navbar-default{background-color: #00C78C;border-bottom-color: #00C78C}
+.header
+{
+	background: url('css-art.jpg') no-repeat center center fixed;
+	min-height:350px;
+	border-bottom-left-radius:6%;
+	border-bottom-right-radius:6%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+.header .content
+{
+	background: rgba(0,199,140,0.7);
+	min-height: 350px;
+	padding: 150px 0;
+	border-bottom-left-radius:6%;
+	border-bottom-right-radius:6%
+}
+.upper{text-transform: uppercase}
+.header h2{font-size: 20px}
+.header p{font-size: 16px}
+.header h2,
+.header p
+{
+	color: #FFF
+}
+
+.about-us{padding-top: 60px;padding-bottom: 30px;overflow: hidden}
+.about-us .idea-icon{padding-top: 30px}
+.about-us .circle
+{
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #000
+}
+.about-us .h2{font-size: 24px}
+.about-us p{font-size: 16px}
+.work{padding-bottom: 30px;overflow: hidden}
+.work .work-icon{padding-top: 30px}
+.work .circle
+{
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #000;
+}
+.work h2{font-size: 20px}
+.work p{font-size: 16px}
+.statistics
+{
+	background: no-repeat center center fixed;
+	min-height:200px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.statistics .stats
+{
+	background: rgba(0,199,140,0.7);
+	min-height: 200px;
+	padding: 40px 0;
+}
+.statistics .stats h2{color: #FFF;font-size: 20px}
+.statistics .stats .stats-num
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+	border-top: 1px solid #FFF;
+	border-right:5px solid #FFF;
+	border-bottom: 5px solid #FFF;
+	border-left: 1px solid #FFF;
+	margin-top: 40px;
+	margin-bottom: 20px
+}
+.statistics .stats .stats-num p
+{
+	color: #FFF;
+	font-weight: bold;
+	padding-top: 20px;
+	font-size: 16px
+}
+.our-services{padding: 40px 0;overflow: hidden}
+.our-services h2{padding-bottom: 15px;font-size: 20px}
+.our-services .service h3{font-weight: bold;font-size: 18px}
+.our-services .service p{font-size: 16px}
+.our-works{padding-bottom: 30px;overflow: hidden}
+.our-works h2{padding-bottom: 20px;font-size: 20px}
+.our-works img{margin-bottom: 10px;padding-left: 2px}
+.our-works button{margin-top: 20px;font-size: 16px}
+.contact-us{padding-bottom: 0}
+.contact-us h2{font-size: 20px}
+.contact-us h3{font-size: 18px}
+.contact-us p{font-size: 16px}
+#map-canvas{height: 300px;width: 100%}
+.footer{padding-top: 20px;background-color: #00C78C;color: #FFF}
+.footer p{font-size: 16px}
+.footer i{margin-right: 5px}
+/*Small Screen*/
+@media(max-width: 767px)
+{
+	.our-works img
+	{
+		width: 32.3333%;
+		height: 125px;
+	}
+	.footer p
+	{
+	font-size: 14px
+	}
+}
+/*Medium Screen*/
+@media(min-width: 768px) and (max-width: 1199px)
+{
+	.our-works img
+	{
+		width: 24%;
+		height: 200px;
+	}
+}
+/*Large Screen*/
+@media(min-width: 1200px)
+{
+	.our-works img
+	{
+		width: 19%;
+		height: 250px;
+	}
+}
