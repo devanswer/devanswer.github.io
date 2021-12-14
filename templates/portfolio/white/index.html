@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Template</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<!-- partial:index.partial.html -->
+<body>
+    <div class="container">
+        <div class="header align-items-center justify-content-center">
+            <div class="row">
+                <!-- Menu Start-->
+                <div class="menu col-6">
+                    <div class="text col-12">
+                        <div class="top_text">
+                            <span>Hello, I am </span>
+                        </div>
+                        <div class="center_text">
+                            <span>Your Name</span>
+                        </div>
+                        <div class="bottom_text">
+                            <span>Software Dev</span>
+                        </div>
+                        <!--My Info-->
+                        <div class="my_info">
+                            <button class="btn">Download CV <i class="fas fa-arrow-down"></i></button>
+                            <button onclick="scrollToBottom()" class="btn">Contact <i class="fas fa-arrow-right"></i></button>
+                        </div> <!--my info end-->
+                    </div>
+                </div><!--end menu-->
+                <div class="photo_frame col-5">
+                    <div class="photo">
+                        <img src="img/profile.jpg">
+                    </div>
+                </div>
+            </div><!--end row-->
+        </div>
+        <div class="about_me">
+            <div class="title">
+                <h2>About me</h2>
+            </div>
+            <div class="row">
+                <div class="about_text col-md-8">
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque
+                    </span>
+                    <div class="my_info">
+                        <button class="btn">Download CV<i class="fas fa-arrow-down"></i></button>
+                    </div>
+                </div>
+                <div class="portfolio col-md-4 col-sm-12">
+                    <span class="size_45">"</span>
+                    <span>
+                        <b class="size_32">Repetition</b> makes <bclass ="size_24">
+                            us</b> feel
+                            <b class="size_34">secure</b> and <b class="size_25">variation</b> makes us feel
+                            <b class="size_22">free</b>
+                    </span>
+                    <span style="font-size: 25px">"</span>
+                </div>
+            </div>
+        </div>
+        <div class="my_skills">
+            <div class="title">
+                <h2>My Skills</h2>
+            </div>
+            <div class="row col-12">
+                <div class="skill col-4">
+                    <div class="skill_body">
+                        <div class="row">
+                            <div class="image col-2">
+                                <img style="padding: 9px;" src="img/web-developer.jpg">
+                            </div>
+                            <div class="title col-9" style="margin-top: auto; margin-bottom: auto;">
+                                <h4>Web Development</h4>
+                            </div>
+                            <div class="desc col-12">
+                                I have knowlede in HTML, CSS, JavaScript, React, Java Spring, Spring Boot, MVC, MySQL.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill col-4">
+                    <div class="skill_body">
+                        <div class="row">
+                            <div class="image col-2">
+                                <img style="padding: 2px;" src="img/mobile_wallet.png">
+                            </div>
+                            <div class="title col-9" style="margin-top: auto; margin-bottom: auto;">
+                                <h4>App Development</h4>
+                            </div>
+                            <div class="desc col-12">
+                                I have knowledge in doing Data and Quantitative Analysis, Decision Analytics, Predictive Modeling.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill col-4">
+                    <div class="skill_body">
+                        <div class="row">
+                            <div class="image col-2">
+                                <img src="img/ml-at-b.png">
+                            </div>
+                            <div class="title col-9" style="margin-top: auto; margin-bottom: auto;">
+                                <h4>Data Science</h4>
+                            </div>
+                            <div class="desc col-12">
+                                I have knowledge in doing Data and Quantitative Analysis, Decision Analytics, Predictive Modeling, Algorithms.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fix the issue with alignment-->
+        <div class="works col-12">
+            <div class="title">
+                <h2>My Portfolio</h2>
+            </div>
+            <div class="labels">
+                <div class="row col-lg-9 col-sm-12">
+                    <div class="label col">
+                        <span class="label_name all current" id="featured" onclick="load('featured')">
+                            Featured
+                        </span>
+                        <span class="label_count" id="all_label_count">
+                            15
+                        </span>
+                    </div>
+                    <div class="label col">
+                        <span class="label_name" id="app" onclick="load('app')">
+                            Apps
+                        </span>
+                        <span class="label_count" id="app_label_count">
+                            3
+                        </span>
+                    </div>
+                    <div class="label col">
+                        <span class="label_name" id="templates" onclick="load('templates')">
+                            Templates
+                        </span>
+                        <span class="label_count" id="template_label_count">
+                            9
+                        </span>
+                    </div>
+                    <div class="label col">
+                        <span class="label_name" id="ml" onclick="load('ml')">
+                            ML
+                        </span>
+                        <span class="label_count" id="ml_label_count">
+                            3
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="display_box" id="display_box">
+                <div class="display_menu col-12">
+                    <select>
+                        <option value="volvo">New to old</option>
+                        <option value="saab">Old to new</option>
+                    </select>
+                </div>
+                <div class="projects_holder col-12">
+                    <div class="row" id="projects_holder">
+                    </div> <!--end row-->
+                    <!-- Button Holder-->
+                    <div class="load_more_buttons" id="load_more"></div>
+                </div> <!--end projects_holder -->
+            </div>
+        </div>
+        <div class="get_in_touch col-12">
+            <div class="title">
+                <h2>Get in touch</h2>
+            </div>
+            <div class="row">
+            </div>
+        </div><!--end of get in touch-->
+    </div>
+    <div class="footer">
+        devanswer.com
+    </div>
+    <!-- partial -->
+    <script src="./script.js"></script>
+</body>
+</html>
