@@ -1,0 +1,45 @@
+/*Variables*/
+.container-main {
+  padding-bottom: 0;
+  background-color: whitesmoke;
+  font-family: "Open Sans", Arial, Tahoma;
+  color: darkslategray;
+  font-size: 16px;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+}
+strong,
+h2 {
+  color: midnightblue;
+}
+ul {
+  list-style-type: none;
+}
+.progress {
+  height: 2rem !important;
+  /*this important flag could be avoided with an additional class*/
+}
+.social:hover {
+  background-color: midnightblue;
+  color: white;
+  cursor: pointer;
+}
+.work-item {
+  color: darkmagenta;
+}
+.work-item:hover {
+  color: slategray;
+}
+
+footer {
+  background-color: midnightblue;
+  padding-top: 10px;
+}
+footer p {
+  margin-bottom: 0;
+}
