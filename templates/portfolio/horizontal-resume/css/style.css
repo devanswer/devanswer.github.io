@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+/*-- default styling --*/
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFAA44;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.btn{
+  padding: 10px 17px;
+}
+.btn-outline-white{
+  border: 2px solid #fff;
+}
+.btn-solid-primary{
+  background-color: #FF7500;
+  border: 0;
+}
+.text-center{
+  text-align: center;
+}
+/*-- ending of default styling --*/
+.mainWrapper{
+  padding: 40px;
+  background-color :#fff;
+}
+main{
+  background-color: #28C7FC;
+}
+header{
+  width: 100%;
+  min-height: 400px;
+  background-image: linear-gradient(to left bottom, #333,#000 80%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+header a{
+  color: #fff;
+}
+header>.profileImage{
+  display: block;
+  max-width: 155px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+header>.profileName{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+header>.profileDesignation{
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+header>.headerBtnGroup{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  width: 80%;
+}
+.contentWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  padding: 20px;
+}
+.aboutContent, .basicInfoContent{
+  padding-left: 20px;
+}
+.info{
+  display: flex;
+}
+.info .infoLabel,.info .labelValue{
+  width: 50%;
+}
+.info .infoLabel{
+  font-size: 16px;
+  font-weight: 600;
+}
+.workExperienceContent{
+  width: 100%;
+  padding: 40px;
+}
+.workExperienceContent>h2, .basicInfoContent>h2, .aboutContent>h2, .qualificationContent>h2{
+  margin-bottom: 20px;
+}
+.workExperinceRow{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.workExperinceRow .WorkYearBlock{
+  width: 30%;
+}
+.workExperinceRow .workDescription{
+  width: 70%;
+}
+.workDescription>h3{
+  font-size: 16px;
+}
+.workDescription .workCompanyName{
+  color: #00BBFF;
+}
+.qualificationCarousel>.owl-carousel .owl-item.active{
+  text-align: center;
+  background-color: #FF7500;
+  position: relative;
+  padding: 30px;
+}
+.qualificationCarousel>.owl-carousel .owl-item.active:last-child{
+  padding: 65px;
+}
+.qualificationCarousel>.owl-carousel .owl-item.active:before{
+  content: '';
+  position: absolute;
+  top: 48%;
+  left: 100%;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+}
+.qualificationCarousel .eduDate{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  position: relative;
+}
+.qualificationCarousel .eduDate:before{
+  content: '';
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 40%;
+}
+.qualificationCarousel .eduPercentage{
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+.skillAndLangWrapper{
+  display: flex;
+}
+.skillWrapper, .langWrapper{
+  width: 50%;
+}
+.skillWrapper>span{
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+}
+.skillWrapper>span::before, .skillWrapper>span::after{
+  content: '';
+  position: absolute;
+}
+.skillWrapper>span::before{
+  width: 10px;
+  height: 10px;
+  border: 3px double #ccc;
+  border-radius: 50%;
+  left: -15px;
+  top: 15px;
+}
+footer{
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  background-color: #363636;
+  color: #fff;
+}
