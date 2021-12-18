@@ -1,0 +1,123 @@
+body {
+	margin: 0 auto;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #606c71;
+}
+nav {
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	position: sticky;
+	top: 0px;
+}
+.photo {
+	text-align: center;
+}
+.photo img {
+	width: 150px;
+	height: 150px;
+	border: 3px solid #fff;
+	box-shadow: 0px 0px 10px #777;
+	border-radius: 50%;
+	margin-top: 40px;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+}
+/*distribution des flexbox en ligne*/
+
+nav ul li {
+	flex: 1 1 auto;
+	text-align: center;
+	position: relative;
+	/*disposition en ligne*/
+}
+nav a {
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	color: #159957;
+	/*Couleur des titres*/
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px;
+}
+/*changement au passage de la souris*/
+
+nav a:hover {
+	color: orange;
+	border-bottom: 2px solid gold;
+}
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+h2 {
+	border-bottom: 2px solid transparent;
+}
+h2::first-letter {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Harrington, Zapfino;
+}
+h2:hover {
+	border-bottom: 2px solid;
+	font-weight: bold;
+}
+/*L'entête est sur un fond dégradé*/
+
+.page-header {
+	color: #fff;
+	text-align: center;
+	background-color: #159957;
+	background-image: linear-gradient(120deg, #155799, #159957);
+}
+/*Le titre est en grande taille*/
+
+.project-name {
+	font-size: 3.25rem;
+	margin-top: 0;
+	margin-bottom: 0.1rem;
+	/*Ombre rouge centrée sur le texte (décalement horizontal et vertical de 0px), floue*/
+	text-shadow: 0px 0px 5px white;
+}
+.project-tagline {
+	font-size: 1.25rem;
+	margin-bottom: 2rem;
+	font-weight: normal;
+	opacity: 0.7;
+}
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-weight: normal;
+	color: #159957;
+	/*Couleur des titres*/
+}
+.marge {
+	margin-left: 150px;
+	/*background-color: #FFFF00;*/
+}
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+span {
+	font-weight: bold;
+	/*Les textes seront en gras*/
+}
+.social img {
+	width: 40px;
+	height: 40px;
+}
