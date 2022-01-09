@@ -651,7 +651,7 @@ body {
 	font-size: 62.5%;
 }
 body:after {
-	content: "devanswer.com";
+	content: "Developers Answer";
 	position: fixed;
 	bottom: 3px;
 	right: 6px;
