@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* { 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.wrapper { 
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1200px;
+}
+.section::before,
+.section::after { 
+  display: table;
+  content: ' ';
+  clear: both;
+}
+.one,
+.one-third,
+.two-thirds,
+.one-fourth,
+.half { 
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.column {
+  flex-basis: 100%;
+}
+@media only screen and (min-width: 800px) {
+.one {
+  width: 100%;
+}
+.half {
+  width: calc(100% / 2);
+}
+.one-third {
+  width: calc(100% / 3);
+}
+.one-fourth {
+  width: calc(100% / 4);
+}
+.two-thirds {
+  width: calc(100% / 3 * 2);
+}
+.main, .article, .aside, .header, .footer, .nav {
+  float: left;
+}
+.column {
+  flex: 1;
+}
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #b7b7a4;
+}
+h2,h3,h4 {
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+  margin: 0.5rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.branding .logo h1 {
+  font-family: Dongle, sans-serif;
+}
+.header { 
+  justify-content: space-between;
+  margin: 1rem;
+}
+.navigation ul { 
+  list-style-type: none;
+  margin: 1rem;
+}
+.navigation ul li { 
+   padding-left: 0.5rem;
+}
+.navigation ul li a {
+  font-size: 1.3rem;
+  color: #03045e;
+  text-decoration: none; 
+  padding: 0.2em;
+  transition: color 0.3s, background-color 0.3s, border-radius 0.3s 
+}
+.navigation ul li a:hover {
+  color: #fff;
+  background-color: #6b705c;
+  border-radius: 13%;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.container .image { 
+  display: block;
+}
+.overlay { 
+  position: absolute; 
+  top: 0; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0; 
+  transition: 0.5s ease;
+  background-color: black;
+}
+.container:hover .overlay { 
+  opacity: 0.5;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.blogcard { 
+  width: 80%;
+  margin: 4rem;
+}
+.blog-thumb img {
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
+.blog-thumb img:hover {
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.2);
+}
+.blogcard-content {
+  padding: 0.3rem;
+}
+.blogcard-content time {
+  margin-left: 8rem;
+}
+.blogcard-content p {
+  text-align: left;
+  margin: 0.75rem;
+}
+.blogcard-content a {
+  margin-top: 8rem;
+  padding: 0.4em;
+  color: #023e8a;
+  border-radius: 15%;
+  text-decoration: none;
+  transition: color 0.5s, background-color 0.3s; 
+}
+.blogcard-content a:hover {
+  color: #fff;
+  background-color: #6b705c;
+  cursor: pointer;
+}
+.lens {
+  margin: 1rem;
+}
+.lens h2, .camera h2 {
+  padding: 0.5rem;
+}
+.lenses td {
+  padding: 0.5rem;
+}
+.camera {
+  margin: 1rem;
+}
+.camera ul {
+  list-style: none;
+  text-align: center;
+}
+.footer {
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+}
