@@ -1,0 +1,249 @@
+*{
+    font-family: "League Spartan";
+}
+a {
+    text-decoration:none !important;
+}
+.img-fluid {
+    width: 170px;
+}
+.collapse.navbar-collapse{
+    justify-content: center;  
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 5em !important;
+    padding-left: 5em !important;
+    color: #5b035e;
+    font-size: 20px;     
+}
+.navbar.navbar-expand-lg{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.cima{
+    background-image:linear-gradient(#fb95ff,#FFD7F5)
+}
+.nav-link:hover{
+    box-shadow:  0 0 10px 1px rgba(33,33,33,.2);   
+}
+#entrar{
+    color: #fff;
+    font-weight: bold;
+    background-color: #a802ad;
+    border-color: #5b035e;
+    padding: 0.7em;
+    border-radius: 5px
+}
+#entrar:hover{
+    background-color:#69036d;
+}
+.d-{
+   min-height: 100vh!important;
+   background-color: #fb95ff;
+}
+.topo{
+    padding: 50px 0px;
+}
+.subtitulo {
+  font-size:20px;
+}
+.topo_s {
+  font-size:30px;
+  font-weight:bolder;
+}
+.baixo {
+    background-color: #FFD7F5;
+}
+#clique {
+    background-color: #a802ad;
+    border-color: #5b035e
+}
+#clique:hover {
+    background-color:#69036d;
+}
+#corpo {
+    background-color: #FFD7F5;
+}
+.row{
+    justify-content: center;
+}
+.cartao {
+    padding: 20px;
+    margin: 10px 5px;
+    width: calc(33.33333333% - 30px) !important;
+    
+   
+}
+#rodape {
+    color: #5b035e !important;
+    font-size: 20px; 
+    justify-content: center;
+    padding: 5px 0;
+    background-image:linear-gradient(#FFD7F5, #fb95ff)
+}
+#rodape a{
+    color:#5b035e;
+}
+.fim {
+    color: #5b035e;
+}
+.login {
+    font-size:2em;
+}
+.login-logo {
+    width: 120px;
+    position: relative;
+    left: 75px;
+    bottom: 82px; 
+}
+h3 {
+    margin-bottom: -70px !important;
+}
+#login-image {
+    height: auto;
+    max-width:100%;
+    position:relative;
+    display:flex;
+    right: 10px;
+    top: 50px;
+}
+.login-button {
+    color:#5b035e;
+    background-color: #fb95ff;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+      line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 65px;
+      border-radius: 5px;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+  
+}
+#login:hover {
+    background:#5b035e;
+    color:#FFD7F5;
+    
+    
+}
+.google-button{
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+    line-height: 25px;
+  text-align: left;
+  vertical-align: middle;
+  width: 65px;
+    border-radius: 5px;
+  margin: 10px auto;
+  outline: rgb(255, 255, 255) none 0px;
+  padding-left: 20%;
+  transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+#loginGoogle {
+    background: rgb(255, 255, 255) url('/img/google-plus.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+    border: 1px solid rgb(220, 74, 61);
+}
+#loginGoogle:hover {
+	  border-color: rgb(220, 74, 61);
+	  background: rgb(220, 74, 61) url('img/google-plus-white.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+#loginGoogle span {
+	  box-sizing:content-box;
+    color: rgb(220, 74, 61);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+#loginGoogle:hover span {
+	  color: #FFF;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.FB-button{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+      line-height: 25px;
+    text-align: left;
+    vertical-align: middle;
+    width: 65px;
+      border-radius: 5px;
+    margin: 10px auto;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 20%;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+      -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+#loginFB {
+    background: rgb(255, 255, 255) url('img/facebook.svg') no-repeat scroll 5px 0px / 40px 50px padding-box border-box;
+    border: 1px solid #4267B2;
+}
+#loginFB:hover {
+    border-color: #4267B2;
+    background: #4267B2 url('img/facebook-white.svg') no-repeat scroll 5px 0px / 40px 50px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+#loginFB span {
+    box-sizing:content-box;
+    color: #4267B2;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none #4267B2;
+    outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+#loginFB:hover span {
+    color: #FFF;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+#quemSomos {
+    z-index: 2;
+    position: relative;
+    bottom:480px;
+    font-size: 30px;
+    
+}
